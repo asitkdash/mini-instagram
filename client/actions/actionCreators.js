@@ -8,7 +8,7 @@ export const increment = (index) => {
 };
 // add comment
 
-export const addComment = (postId, author, comment) => {
+export const addComment = (postId, author, comment) => {    
     return {
         type: 'ADD_COMMENT',
         postId,
